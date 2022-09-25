@@ -5,6 +5,7 @@ import Navigation from "../components/Navigation";
 import ProductsList from "../components/ProductsList";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
+import PRODUCTS from "../data.json";
 
 export default function Home() {
   return (
@@ -70,6 +71,11 @@ export default function Home() {
     //     </a>
     //   </footer>
     // </div>
-    <div>Products & Main page!</div>
+    <Box>
+      <Navigation />
+      <Container maxWidth="lg">
+        <ProductsList products={PRODUCTS} />
+      </Container>
+    </Box>
   );
 }
