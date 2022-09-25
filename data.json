@@ -1,0 +1,915 @@
+{
+  "Movies": {
+    "0": {
+      "productId": "04ca",
+      "productName": "Refined Metal Bike",
+      "productMaterial": "Metal",
+      "productDepartment": "Movies",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "productPromotionAddOn": "Comes with Bonus Gift",
+      "productPrice": "$125",
+      "productRating": 4.5,
+      "productImg": "https://loremflickr.com/640/480/Bike"
+    },
+    "1": {
+      "productId": "f4d9",
+      "productName": "Awesome Metal Hat",
+      "productMaterial": "Metal",
+      "productDepartment": "Movies",
+      "productDescription": "The Football Is Good For Training And Recreational Purposes",
+      "productPrice": "$96",
+      "productRating": 3.5,
+      "productImg": "https://loremflickr.com/640/480/Hat"
+    },
+    "2": {
+      "productId": "a65f",
+      "productName": "Bespoke Cotton Bike",
+      "productMaterial": "Cotton",
+      "productDepartment": "Movies",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$32",
+      "productRating": 3.7,
+      "productImg": "https://loremflickr.com/640/480/Bike"
+    },
+    "3": {
+      "productId": "ba3c",
+      "productName": "Oriental Frozen Salad",
+      "productMaterial": "Frozen",
+      "productDepartment": "Movies",
+      "productDescription": "The Football Is Good For Training And Recreational Purposes",
+      "productPrice": "$117",
+      "productRating": 3.5,
+      "productImg": "https://loremflickr.com/640/480/Salad"
+    },
+    "4": {
+      "productId": "1dab",
+      "productName": "Modern Concrete Tuna",
+      "productMaterial": "Concrete",
+      "productDepartment": "Movies",
+      "productDescription": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "productPrice": "$45",
+      "productRating": 3.5,
+      "productImg": "https://loremflickr.com/640/480/Tuna"
+    },
+    "5": {
+      "productId": "8f13",
+      "productName": "Sleek Metal Salad",
+      "productMaterial": "Metal",
+      "productDepartment": "Movies",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$66",
+      "productRating": 3.7,
+      "productImg": "https://loremflickr.com/640/480/Salad"
+    },
+    "6": {
+      "productId": "9f4c",
+      "productName": "Awesome Wooden Computer",
+      "productMaterial": "Wooden",
+      "productDepartment": "Movies",
+      "productDescription": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "productPrice": "$89",
+      "productRating": 3,
+      "productImg": "https://loremflickr.com/640/480/Computer"
+    },
+    "7": {
+      "productId": "7460",
+      "productName": "Fantastic Cotton Cheese",
+      "productMaterial": "Cotton",
+      "productDepartment": "Movies",
+      "productDescription": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "productPrice": "$80",
+      "productRating": 3.3,
+      "productImg": "https://loremflickr.com/640/480/Cheese"
+    },
+    "8": {
+      "productId": "899c",
+      "productName": "Luxurious Soft Shoes",
+      "productMaterial": "Soft",
+      "productDepartment": "Movies",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$46",
+      "productRating": 2.8,
+      "productImg": "https://loremflickr.com/640/480/Shoes"
+    },
+    "9": {
+      "productId": "99f1",
+      "productName": "Small Steel Hat",
+      "productMaterial": "Steel",
+      "productDepartment": "Movies",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "productPrice": "$109",
+      "productRating": 4.3,
+      "productImg": "https://loremflickr.com/640/480/Hat"
+    },
+    "10": {
+      "productId": "d05c",
+      "productName": "Luxurious Metal Chips",
+      "productMaterial": "Metal",
+      "productDepartment": "Movies",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$96",
+      "productRating": 4.9,
+      "productImg": "https://loremflickr.com/640/480/Chips"
+    },
+    "11": {
+      "productId": "5d56",
+      "productName": "Generic Soft Chair",
+      "productMaterial": "Soft",
+      "productDepartment": "Movies",
+      "productDescription": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "productPrice": "$46",
+      "productRating": 4.7,
+      "productImg": "https://loremflickr.com/640/480/Chair"
+    },
+    "12": {
+      "productId": "12a7",
+      "productName": "Gorgeous Metal Towels",
+      "productMaterial": "Metal",
+      "productDepartment": "Movies",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "productPrice": "$60",
+      "productRating": 4.3,
+      "productImg": "https://loremflickr.com/640/480/Towels"
+    },
+    "13": {
+      "productId": "72c3",
+      "productName": "Sleek Metal Tuna",
+      "productMaterial": "Metal",
+      "productDepartment": "Movies",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$118",
+      "productRating": 4.1,
+      "productImg": "https://loremflickr.com/640/480/Tuna"
+    },
+    "14": {
+      "productId": "2885",
+      "productName": "Rustic Fresh Keyboard",
+      "productMaterial": "Fresh",
+      "productDepartment": "Movies",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "productPrice": "$121",
+      "productRating": 3.8,
+      "productImg": "https://loremflickr.com/640/480/Keyboard"
+    }
+  },
+  "Music": {
+    "0": {
+      "productId": "9a87",
+      "productName": "Refined Cotton Bike",
+      "productMaterial": "Cotton",
+      "productDepartment": "Music",
+      "productDescription": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "productPrice": "$40",
+      "productRating": 3.4,
+      "productImg": "https://loremflickr.com/640/480/Bike"
+    },
+    "1": {
+      "productId": "3591",
+      "productName": "Handcrafted Rubber Towels",
+      "productMaterial": "Rubber",
+      "productDepartment": "Music",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$52",
+      "productRating": 4.3,
+      "productImg": "https://loremflickr.com/640/480/Towels"
+    },
+    "2": {
+      "productId": "b7ff",
+      "productName": "Intelligent Cotton Computer",
+      "productMaterial": "Cotton",
+      "productDepartment": "Music",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$117",
+      "productRating": 4.3,
+      "productImg": "https://loremflickr.com/640/480/Computer"
+    },
+    "3": {
+      "productId": "5c73",
+      "productName": "Bespoke Concrete Pants",
+      "productMaterial": "Concrete",
+      "productDepartment": "Music",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$12",
+      "productRating": 4.9,
+      "productImg": "https://loremflickr.com/640/480/Pants"
+    },
+    "4": {
+      "productId": "bef6",
+      "productName": "Intelligent Rubber Car",
+      "productMaterial": "Rubber",
+      "productDepartment": "Music",
+      "productDescription": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "productPrice": "$72",
+      "productRating": 4,
+      "productImg": "https://loremflickr.com/640/480/Car"
+    },
+    "5": {
+      "productId": "85df",
+      "productName": "Unbranded Fresh Shoes",
+      "productMaterial": "Fresh",
+      "productDepartment": "Music",
+      "productDescription": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "productPrice": "$76",
+      "productRating": 4.9,
+      "productImg": "https://loremflickr.com/640/480/Shoes"
+    },
+    "6": {
+      "productId": "8e05",
+      "productName": "Practical Granite Gloves",
+      "productMaterial": "Granite",
+      "productDepartment": "Music",
+      "productDescription": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "productPrice": "$8",
+      "productRating": 3.2,
+      "productImg": "https://loremflickr.com/640/480/Gloves"
+    },
+    "7": {
+      "productId": "4baf",
+      "productName": "Luxurious Soft Sausages",
+      "productMaterial": "Soft",
+      "productDepartment": "Music",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "productPrice": "$12",
+      "productRating": 3.7,
+      "productImg": "https://loremflickr.com/640/480/Sausages"
+    },
+    "8": {
+      "productId": "bf46",
+      "productName": "Awesome Fresh Computer",
+      "productMaterial": "Fresh",
+      "productDepartment": "Music",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "productPrice": "$113",
+      "productRating": 2.9,
+      "productImg": "https://loremflickr.com/640/480/Computer"
+    },
+    "9": {
+      "productId": "953d",
+      "productName": "Refined Fresh Mouse",
+      "productMaterial": "Fresh",
+      "productDepartment": "Music",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "productPrice": "$64",
+      "productRating": 3.1,
+      "productImg": "https://loremflickr.com/640/480/Mouse"
+    },
+    "10": {
+      "productId": "29a3",
+      "productName": "Handmade Metal Hat",
+      "productMaterial": "Metal",
+      "productDepartment": "Music",
+      "productDescription": "The Football Is Good For Training And Recreational Purposes",
+      "productPrice": "$64",
+      "productRating": 3.7,
+      "productImg": "https://loremflickr.com/640/480/Hat"
+    },
+    "11": {
+      "productId": "f7e2",
+      "productName": "Bespoke Metal Sausages",
+      "productMaterial": "Metal",
+      "productDepartment": "Music",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$47",
+      "productRating": 4.4,
+      "productImg": "https://loremflickr.com/640/480/Sausages"
+    },
+    "12": {
+      "productId": "1d26",
+      "productName": "Bespoke Cotton Sausages",
+      "productMaterial": "Cotton",
+      "productDepartment": "Music",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$38",
+      "productRating": 4.2,
+      "productImg": "https://loremflickr.com/640/480/Sausages"
+    },
+    "13": {
+      "productId": "b5c4",
+      "productName": "Refined Metal Ball",
+      "productMaterial": "Metal",
+      "productDepartment": "Music",
+      "productDescription": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "productPrice": "$91",
+      "productRating": 4.9,
+      "productImg": "https://loremflickr.com/640/480/Ball"
+    },
+    "14": {
+      "productId": "cf66",
+      "productName": "Rustic Steel Shoes",
+      "productMaterial": "Steel",
+      "productDepartment": "Music",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$79",
+      "productRating": 2.9,
+      "productImg": "https://loremflickr.com/640/480/Shoes"
+    }
+  },
+  "Home": {
+    "0": {
+      "productId": "266a",
+      "productName": "Ergonomic Frozen Gloves",
+      "productMaterial": "Frozen",
+      "productDepartment": "Home",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$12",
+      "productRating": 4,
+      "productImg": "https://loremflickr.com/640/480/Gloves"
+    },
+    "1": {
+      "productId": "6dd7",
+      "productName": "Gorgeous Metal Computer",
+      "productMaterial": "Metal",
+      "productDepartment": "Home",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$56",
+      "productRating": 2.8,
+      "productImg": "https://loremflickr.com/640/480/Computer"
+    },
+    "2": {
+      "productId": "45ac",
+      "productName": "Electronic Steel Bacon",
+      "productMaterial": "Steel",
+      "productDepartment": "Home",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$36",
+      "productRating": 3.8,
+      "productImg": "https://loremflickr.com/640/480/Bacon"
+    },
+    "3": {
+      "productId": "c3bd",
+      "productName": "Awesome Concrete Pants",
+      "productMaterial": "Concrete",
+      "productDepartment": "Home",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$108",
+      "productRating": 3.8,
+      "productImg": "https://loremflickr.com/640/480/Pants"
+    },
+    "4": {
+      "productId": "f5b2",
+      "productName": "Refined Metal Bike",
+      "productMaterial": "Metal",
+      "productDepartment": "Home",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "productPrice": "$32",
+      "productRating": 4.7,
+      "productImg": "https://loremflickr.com/640/480/Bike"
+    },
+    "5": {
+      "productId": "13e7",
+      "productName": "Handmade Soft Ball",
+      "productMaterial": "Soft",
+      "productDepartment": "Home",
+      "productDescription": "The Football Is Good For Training And Recreational Purposes",
+      "productPrice": "$115",
+      "productRating": 4.6,
+      "productImg": "https://loremflickr.com/640/480/Ball"
+    },
+    "6": {
+      "productId": "0951",
+      "productName": "Awesome Fresh Gloves",
+      "productMaterial": "Fresh",
+      "productDepartment": "Home",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$103",
+      "productRating": 3.5,
+      "productImg": "https://loremflickr.com/640/480/Gloves"
+    },
+    "7": {
+      "productId": "4e3e",
+      "productName": "Sleek Concrete Table",
+      "productMaterial": "Concrete",
+      "productDepartment": "Home",
+      "productDescription": "The Football Is Good For Training And Recreational Purposes",
+      "productPrice": "$68",
+      "productRating": 3.3,
+      "productImg": "https://loremflickr.com/640/480/Table"
+    },
+    "8": {
+      "productId": "750f",
+      "productName": "Bespoke Fresh Keyboard",
+      "productMaterial": "Fresh",
+      "productDepartment": "Home",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "productPrice": "$54",
+      "productRating": 3.3,
+      "productImg": "https://loremflickr.com/640/480/Keyboard"
+    },
+    "9": {
+      "productId": "0f62",
+      "productName": "Refined Metal Chicken",
+      "productMaterial": "Metal",
+      "productDepartment": "Home",
+      "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "productPrice": "$7",
+      "productRating": 4.6,
+      "productImg": "https://loremflickr.com/640/480/Chicken"
+    },
+    "10": {
+      "productId": "6b6b",
+      "productName": "Luxurious Plastic Shirt",
+      "productMaterial": "Plastic",
+      "productDepartment": "Home",
+      "productDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "productPrice": "$21",
+      "productRating": 3.1,
+      "productImg": "https://loremflickr.com/640/480/Shirt"
+    },
+    "11": {
+      "productId": "d4d3",
+      "productName": "Luxurious Frozen Shoes",
+      "productMaterial": "Frozen",
+      "productDepartment": "Home",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "productPrice": "$84",
+      "productRating": 4.1,
+      "productImg": "https://loremflickr.com/640/480/Shoes"
+    },
+    "12": {
+      "productId": "c216",
+      "productName": "Recycled Granite Chips",
+      "productMaterial": "Granite",
+      "productDepartment": "Home",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "productPrice": "$50",
+      "productRating": 4.3,
+      "productImg": "https://loremflickr.com/640/480/Chips"
+    },
+    "13": {
+      "productId": "9544",
+      "productName": "Licensed Granite Mouse",
+      "productMaterial": "Granite",
+      "productDepartment": "Home",
+      "productDescription": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "productPrice": "$80",
+      "productRating": 3.3,
+      "productImg": "https://loremflickr.com/640/480/Mouse"
+    },
+    "14": {
+      "productId": "ae92",
+      "productName": "Licensed Rubber Pizza",
+      "productMaterial": "Rubber",
+      "productDepartment": "Home",
+      "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "productPrice": "$90",
+      "productRating": 3,
+      "productImg": "https://loremflickr.com/640/480/Pizza"
+    }
+  },
+  "Outdoors": {
+    "0": {
+      "productId": "ca63",
+      "productName": "Bespoke Cotton Table",
+      "productMaterial": "Cotton",
+      "productDepartment": "Outdoors",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$33",
+      "productRating": 4.8,
+      "productImg": "https://loremflickr.com/640/480/Table"
+    },
+    "1": {
+      "productId": "f554",
+      "productName": "Ergonomic Bronze Car",
+      "productMaterial": "Bronze",
+      "productDepartment": "Outdoors",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$112",
+      "productRating": 3.3,
+      "productImg": "https://loremflickr.com/640/480/Car"
+    },
+    "2": {
+      "productId": "b7f6",
+      "productName": "Elegant Granite Hat",
+      "productMaterial": "Granite",
+      "productDepartment": "Outdoors",
+      "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "productPrice": "$86",
+      "productRating": 2.9,
+      "productImg": "https://loremflickr.com/640/480/Hat"
+    },
+    "3": {
+      "productId": "b148",
+      "productName": "Awesome Plastic Bike",
+      "productMaterial": "Plastic",
+      "productDepartment": "Outdoors",
+      "productDescription": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "productPrice": "$52",
+      "productRating": 3.7,
+      "productImg": "https://loremflickr.com/640/480/Bike"
+    },
+    "4": {
+      "productId": "1b39",
+      "productName": "Elegant Steel Chicken",
+      "productMaterial": "Steel",
+      "productDepartment": "Outdoors",
+      "productDescription": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "productPrice": "$110",
+      "productRating": 4,
+      "productImg": "https://loremflickr.com/640/480/Chicken"
+    },
+    "5": {
+      "productId": "9634",
+      "productName": "Handcrafted Frozen Ball",
+      "productMaterial": "Frozen",
+      "productDepartment": "Outdoors",
+      "productDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "productPrice": "$13",
+      "productRating": 3.5,
+      "productImg": "https://loremflickr.com/640/480/Ball"
+    },
+    "6": {
+      "productId": "d963",
+      "productName": "Incredible Frozen Chicken",
+      "productMaterial": "Frozen",
+      "productDepartment": "Outdoors",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$69",
+      "productRating": 3.2,
+      "productImg": "https://loremflickr.com/640/480/Chicken"
+    },
+    "7": {
+      "productId": "aef7",
+      "productName": "Intelligent Frozen Pizza",
+      "productMaterial": "Frozen",
+      "productDepartment": "Outdoors",
+      "productDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "productPrice": "$91",
+      "productRating": 4.6,
+      "productImg": "https://loremflickr.com/640/480/Pizza"
+    },
+    "8": {
+      "productId": "1e8e",
+      "productName": "Bespoke Plastic Mouse",
+      "productMaterial": "Plastic",
+      "productDepartment": "Outdoors",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "productPrice": "$43",
+      "productRating": 2.9,
+      "productImg": "https://loremflickr.com/640/480/Mouse"
+    },
+    "9": {
+      "productId": "0117",
+      "productName": "Incredible Cotton Towels",
+      "productMaterial": "Cotton",
+      "productDepartment": "Outdoors",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$81",
+      "productRating": 4.4,
+      "productImg": "https://loremflickr.com/640/480/Towels"
+    },
+    "10": {
+      "productId": "4ba6",
+      "productName": "Refined Soft Shirt",
+      "productMaterial": "Soft",
+      "productDepartment": "Outdoors",
+      "productDescription": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "productPrice": "$78",
+      "productRating": 4.4,
+      "productImg": "https://loremflickr.com/640/480/Shirt"
+    },
+    "11": {
+      "productId": "75de",
+      "productName": "Intelligent Wooden Bike",
+      "productMaterial": "Wooden",
+      "productDepartment": "Outdoors",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$95",
+      "productRating": 4.9,
+      "productImg": "https://loremflickr.com/640/480/Bike"
+    },
+    "12": {
+      "productId": "b342",
+      "productName": "Small Wooden Car",
+      "productMaterial": "Wooden",
+      "productDepartment": "Outdoors",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$70",
+      "productRating": 3.8,
+      "productImg": "https://loremflickr.com/640/480/Car"
+    },
+    "13": {
+      "productId": "ee95",
+      "productName": "Generic Metal Gloves",
+      "productMaterial": "Metal",
+      "productDepartment": "Outdoors",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$112",
+      "productRating": 4,
+      "productImg": "https://loremflickr.com/640/480/Gloves"
+    },
+    "14": {
+      "productId": "2b99",
+      "productName": "Rustic Wooden Hat",
+      "productMaterial": "Wooden",
+      "productDepartment": "Outdoors",
+      "productDescription": "The Football Is Good For Training And Recreational Purposes",
+      "productPrice": "$120",
+      "productRating": 3.6,
+      "productImg": "https://loremflickr.com/640/480/Hat"
+    }
+  },
+  "Kids": {
+    "0": {
+      "productId": "ae91",
+      "productName": "Luxurious Steel Mouse",
+      "productMaterial": "Steel",
+      "productDepartment": "Kids",
+      "productDescription": "The Football Is Good For Training And Recreational Purposes",
+      "productPrice": "$118",
+      "productRating": 5,
+      "productImg": "https://loremflickr.com/640/480/Mouse"
+    },
+    "1": {
+      "productId": "51ac",
+      "productName": "Tasty Fresh Pizza",
+      "productMaterial": "Fresh",
+      "productDepartment": "Kids",
+      "productDescription": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "productPrice": "$16",
+      "productRating": 3.5,
+      "productImg": "https://loremflickr.com/640/480/Pizza"
+    },
+    "2": {
+      "productId": "beac",
+      "productName": "Luxurious Soft Keyboard",
+      "productMaterial": "Soft",
+      "productDepartment": "Kids",
+      "productDescription": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "productPrice": "$70",
+      "productRating": 4.5,
+      "productImg": "https://loremflickr.com/640/480/Keyboard"
+    },
+    "3": {
+      "productId": "3a2d",
+      "productName": "Handmade Metal Sausages",
+      "productMaterial": "Metal",
+      "productDepartment": "Kids",
+      "productDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "productPrice": "$33",
+      "productRating": 4.3,
+      "productImg": "https://loremflickr.com/640/480/Sausages"
+    },
+    "4": {
+      "productId": "3221",
+      "productName": "Recycled Concrete Soap",
+      "productMaterial": "Concrete",
+      "productDepartment": "Kids",
+      "productDescription": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "productPrice": "$56",
+      "productRating": 4.3,
+      "productImg": "https://loremflickr.com/640/480/Soap"
+    },
+    "5": {
+      "productId": "00a4",
+      "productName": "Unbranded Metal Computer",
+      "productMaterial": "Metal",
+      "productDepartment": "Kids",
+      "productDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "productPrice": "$69",
+      "productRating": 4.1,
+      "productImg": "https://loremflickr.com/640/480/Computer"
+    },
+    "6": {
+      "productId": "6248",
+      "productName": "Handmade Soft Pants",
+      "productMaterial": "Soft",
+      "productDepartment": "Kids",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$44",
+      "productRating": 3.8,
+      "productImg": "https://loremflickr.com/640/480/Pants"
+    },
+    "7": {
+      "productId": "c2df",
+      "productName": "Awesome Soft Fish",
+      "productMaterial": "Soft",
+      "productDepartment": "Kids",
+      "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "productPrice": "$105",
+      "productRating": 4.6,
+      "productImg": "https://loremflickr.com/640/480/Fish"
+    },
+    "8": {
+      "productId": "ef02",
+      "productName": "Rustic Steel Chair",
+      "productMaterial": "Steel",
+      "productDepartment": "Kids",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$20",
+      "productRating": 3.5,
+      "productImg": "https://loremflickr.com/640/480/Chair"
+    },
+    "9": {
+      "productId": "a72b",
+      "productName": "Incredible Fresh Shirt",
+      "productMaterial": "Fresh",
+      "productDepartment": "Kids",
+      "productDescription": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "productPrice": "$29",
+      "productRating": 4.1,
+      "productImg": "https://loremflickr.com/640/480/Shirt"
+    },
+    "10": {
+      "productId": "e0ea",
+      "productName": "Rustic Cotton Chair",
+      "productMaterial": "Cotton",
+      "productDepartment": "Kids",
+      "productDescription": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "productPrice": "$82",
+      "productRating": 3.8,
+      "productImg": "https://loremflickr.com/640/480/Chair"
+    },
+    "11": {
+      "productId": "ad2d",
+      "productName": "Gorgeous Rubber Ball",
+      "productMaterial": "Rubber",
+      "productDepartment": "Kids",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$72",
+      "productRating": 5,
+      "productImg": "https://loremflickr.com/640/480/Ball"
+    },
+    "12": {
+      "productId": "df4c",
+      "productName": "Fantastic Steel Mouse",
+      "productMaterial": "Steel",
+      "productDepartment": "Kids",
+      "productDescription": "The Football Is Good For Training And Recreational Purposes",
+      "productPrice": "$6",
+      "productRating": 4.8,
+      "productImg": "https://loremflickr.com/640/480/Mouse"
+    },
+    "13": {
+      "productId": "2a29",
+      "productName": "Bespoke Cotton Chips",
+      "productMaterial": "Cotton",
+      "productDepartment": "Kids",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$99",
+      "productRating": 4.7,
+      "productImg": "https://loremflickr.com/640/480/Chips"
+    },
+    "14": {
+      "productId": "7bbe",
+      "productName": "Licensed Rubber Pizza",
+      "productMaterial": "Rubber",
+      "productDepartment": "Kids",
+      "productDescription": "The Football Is Good For Training And Recreational Purposes",
+      "productPrice": "$123",
+      "productRating": 3.1,
+      "productImg": "https://loremflickr.com/640/480/Pizza"
+    }
+  },
+  "Books": {
+    "0": {
+      "productId": "b5d7",
+      "productName": "Incredible Fresh Tuna",
+      "productMaterial": "Fresh",
+      "productDepartment": "Books",
+      "productDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "productPrice": "$42",
+      "productRating": 3.5,
+      "productImg": "https://loremflickr.com/640/480/Tuna"
+    },
+    "1": {
+      "productId": "dbee",
+      "productName": "Tasty Rubber Computer",
+      "productMaterial": "Rubber",
+      "productDepartment": "Books",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "productPrice": "$52",
+      "productRating": 3.5,
+      "productImg": "https://loremflickr.com/640/480/Computer"
+    },
+    "2": {
+      "productId": "15d0",
+      "productName": "Bespoke Fresh Towels",
+      "productMaterial": "Fresh",
+      "productDepartment": "Books",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "productPrice": "$23",
+      "productRating": 3.7,
+      "productImg": "https://loremflickr.com/640/480/Towels"
+    },
+    "3": {
+      "productId": "b68b",
+      "productName": "Awesome Concrete Keyboard",
+      "productMaterial": "Concrete",
+      "productDepartment": "Books",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$94",
+      "productRating": 4.9,
+      "productImg": "https://loremflickr.com/640/480/Keyboard"
+    },
+    "4": {
+      "productId": "121e",
+      "productName": "Small Steel Pizza",
+      "productMaterial": "Steel",
+      "productDepartment": "Books",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "productPrice": "$10",
+      "productRating": 4.8,
+      "productImg": "https://loremflickr.com/640/480/Pizza"
+    },
+    "5": {
+      "productId": "48da",
+      "productName": "Refined Concrete Keyboard",
+      "productMaterial": "Concrete",
+      "productDepartment": "Books",
+      "productDescription": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "productPrice": "$61",
+      "productRating": 4.2,
+      "productImg": "https://loremflickr.com/640/480/Keyboard"
+    },
+    "6": {
+      "productId": "04c8",
+      "productName": "Incredible Rubber Chips",
+      "productMaterial": "Rubber",
+      "productDepartment": "Books",
+      "productDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "productPrice": "$39",
+      "productRating": 3.9,
+      "productImg": "https://loremflickr.com/640/480/Chips"
+    },
+    "7": {
+      "productId": "0a66",
+      "productName": "Modern Bronze Chips",
+      "productMaterial": "Bronze",
+      "productDepartment": "Books",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "productPrice": "$125",
+      "productRating": 3.2,
+      "productImg": "https://loremflickr.com/640/480/Chips"
+    },
+    "8": {
+      "productId": "69fd",
+      "productName": "Intelligent Bronze Fish",
+      "productMaterial": "Bronze",
+      "productDepartment": "Books",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "productPrice": "$109",
+      "productRating": 4.6,
+      "productImg": "https://loremflickr.com/640/480/Fish"
+    },
+    "9": {
+      "productId": "eca9",
+      "productName": "Luxurious Concrete Car",
+      "productMaterial": "Concrete",
+      "productDepartment": "Books",
+      "productDescription": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "productPrice": "$94",
+      "productRating": 4.9,
+      "productImg": "https://loremflickr.com/640/480/Car"
+    },
+    "10": {
+      "productId": "a924",
+      "productName": "Sleek Steel Pizza",
+      "productMaterial": "Steel",
+      "productDepartment": "Books",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "productPrice": "$79",
+      "productRating": 3.4,
+      "productImg": "https://loremflickr.com/640/480/Pizza"
+    },
+    "11": {
+      "productId": "50b1",
+      "productName": "Rustic Steel Chair",
+      "productMaterial": "Steel",
+      "productDepartment": "Books",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "productPrice": "$49",
+      "productRating": 4.7,
+      "productImg": "https://loremflickr.com/640/480/Chair"
+    },
+    "12": {
+      "productId": "684c",
+      "productName": "Modern Bronze Cheese",
+      "productMaterial": "Bronze",
+      "productDepartment": "Books",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "productPrice": "$51",
+      "productRating": 2.9,
+      "productImg": "https://loremflickr.com/640/480/Cheese"
+    },
+    "13": {
+      "productId": "6e3c",
+      "productName": "Awesome Soft Bacon",
+      "productMaterial": "Soft",
+      "productDepartment": "Books",
+      "productDescription": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "productPrice": "$43",
+      "productRating": 3.6,
+      "productImg": "https://loremflickr.com/640/480/Bacon"
+    },
+    "14": {
+      "productId": "f968",
+      "productName": "Licensed Granite Pants",
+      "productMaterial": "Granite",
+      "productDepartment": "Books",
+      "productDescription": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "productPrice": "$90",
+      "productRating": 3.3,
+      "productImg": "https://loremflickr.com/640/480/Pants"
+    }
+  }
+}
