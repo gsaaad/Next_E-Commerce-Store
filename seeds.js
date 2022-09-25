@@ -25,6 +25,7 @@ export default function createRandomProducts() {
   var productPromotionAddOn = Math.floor(
     Math.random() * promotionalAddOn.length
   );
+
   // console.log(
   //   productPromotionAddOn,
   //   "out of ",
@@ -47,15 +48,18 @@ export default function createRandomProducts() {
       var productId = faker.datatype.uuid().split("-")[1];
       var productName = faker.commerce.productName();
       var productMaterial = productName.split(" ")[1];
-      var productPrice = faker.commerce.price(5, 125, 0, "$");
-      var productDescription = faker.commerce.productDescription();
-      var productDepartment = departments[i];
+      var productPrice = faker.commerce.price(37, 99, 0, "$");
       var productPromoPrice = faker.commerce.price(
-        10,
-        productPrice - 2,
+        30,
+        productPrice.slice(1) - 2,
         0,
         "$"
       );
+      console.log(productPrice, productPromoPrice);
+
+      var productDescription = faker.commerce.productDescription();
+      var productDepartment = departments[i];
+
       var productPromotionAddOn = promotionalAddOn[productPromotionAddOn];
       var productImg = faker.image.imageUrl(
         640,
@@ -96,6 +100,9 @@ export default function createRandomProducts() {
         );
       }
     });
+    console.log(
+      "Seeding data to data.json writting is complete! Have fun shopping ~!"
+    );
   } catch (e) {
     console.error(
       e,
