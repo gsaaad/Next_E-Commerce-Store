@@ -12,9 +12,20 @@ export default function collectionProducts({ products }) {
 
   for (let i = 0; i < department.length; i++) {
     const departmentTitle = department[i][0];
-    const departmentProducts = department[i][1];
+    const departmentProducts = Object.values(department[i][1]);
     if (departmentTitle == collectionName) {
-      console.log(typeof departmentProducts, "PRODUCTS", departmentProducts);
+      const PRODUCTS = departmentProducts;
+
+      {
+        Object.values(PRODUCTS).map((product) => {
+          console.log(product);
+          return (
+            <div>
+              <h1>{product.productDepartment}</h1>
+            </div>
+          );
+        });
+      }
     }
   }
 
