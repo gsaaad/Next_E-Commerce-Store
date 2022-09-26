@@ -3,6 +3,7 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
+
 export default function Navigation({ products }) {
   const departments = Object.keys(products);
   // departments are based on seeded data, which may change if re-seeded
@@ -13,7 +14,8 @@ export default function Navigation({ products }) {
           <Typography mr={2}>All products</Typography>
         </Link>
         {departments.map((department) => {
-          const departmentLink = `/collection/${department}`;
+          const departmentLink = `/collections/${department}`;
+          console.log(departmentLink);
           return (
             <Link
               underline="none"

@@ -5,14 +5,16 @@ import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 
 export default function BreadcrumbsNavigation({ title }) {
+  console.log(title, "this is the title from breadcrumbs");
   return (
     <Box mt={2}>
       <Breadcrumbs separator=">" aria-label="breadcrumb">
         <Link underline="hover" key="1" color="inherit" href="/">
-          <Typography key="3" color="text.primary">
-            {title && title.replace(/^\w/, (c) => c.toUpperCase())}
-          </Typography>
+          Products here
         </Link>
+        <Typography key="3" color="text.primary">
+          hello title
+        </Typography>
       </Breadcrumbs>
     </Box>
   );

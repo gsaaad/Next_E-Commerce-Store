@@ -4,20 +4,19 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Navigation from "../../components/Navigation";
 import ProductsList from "../../components/ProductsList";
+import BreadcrumbsNavigation from "../../components/BreadcrumbsNavigation";
 import PRODUCTS from "../../data.json";
 
 export default function Games() {
   const router = useRouter();
-  const { collectionName } = router.query;
-  const products = PRODUCTS.filter(
-    (product) => product.collection === collectionName
-  );
+  const collectionName = router.route.split("/")[2];
+
   return (
     <Box>
-      <Navigation />
+      <Navigation products={PRODUCTS} />
       <Container maxWidth="lg">
-        <BreadcrumbsNavigation collection={collectionName} />
-        <ProductsList products={products} />
+        <BreadcrumbsNavigation title={collectionName} />
+        <ProductsList />
       </Container>
     </Box>
   );
