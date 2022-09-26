@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Navigation from "../../components/Navigation";
-import ProductsList from "../../components/ProductsList";
+import CollectionProducts from "../../components/CollectionProducts";
 import BreadcrumbsNavigation from "../../components/BreadcrumbsNavigation";
 import PRODUCTS from "../../data.json";
 
@@ -16,7 +16,7 @@ export default function Games() {
       <Navigation products={PRODUCTS} />
       <Container maxWidth="lg">
         <BreadcrumbsNavigation title={collectionName} />
-        <ProductsList />
+        <CollectionProducts products={PRODUCTS} />
       </Container>
     </Box>
   );
