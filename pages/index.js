@@ -72,7 +72,7 @@ export default function Home() {
     //   </footer>
     // </div>
     <Box>
-      <Navigation />
+      <Navigation products={PRODUCTS} />
       <Container maxWidth="lg">
         <ProductsList products={PRODUCTS} />
       </Container>
