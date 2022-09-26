@@ -5,34 +5,44 @@ import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 
 export default function ProductsList({ products }) {
-  const DEPARTMENTS = Object.keys(products);
   const PRODUCTS = Object.values(products);
-  console.log(PRODUCTS);
+  const randomProducts = [];
+  for (let i = 0; i < PRODUCTS.length; i++) {
+    randomProducts.push(PRODUCTS[i][0]);
+  }
+  console.log(randomProducts);
 
   return (
-    <ImageList col={5} gap={20}>
-      {/* {
-        (products,
-        Object.entries(products).forEach((department) => {
-          const departmentTitle = department[0];
-          const departmentProducts = department[1];
-          const randomProduct = Object.values(departmentProducts)[2];
-
-          <ImageListItem key={department[0]}>
-            <div>Department: {departmentTitle}</div>
-            <img
-              src={`${randomProduct.productImg}?w=250&fit=crop&auto=format&dpr=2`}
-            />
-          </ImageListItem>;
-        }))
-      } */}
-      {Object.entries(DEPARTMENTS).map((department) => {
-        const departmentId = department[0];
-        const departmentTitle = department[1];
+    <ImageList col={4} gap={50}>
+      {Object.entries(randomProducts).map((product) => {
+        const productNum = product[0];
+        const item = product[1];
+        const lineThrough = {
+          textDecoration: "line-through",
+          marginLeft: "20px",
+        };
+        const priceDivStyling = {
+          display: "flex",
+        };
 
         return (
-          <ImageListItem key={departmentId}>
-            <div>Hello {departmentTitle}</div>
+          <ImageListItem key={productNum}>
+            <img
+              src={`${item.productImg}?w-250&fit=crop&auto=format`}
+              srcSet={`${item.productImg}?w=250&fit=crop&auto=format&dpr=2 2x`}
+              alt={item.productDescription}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              title={<h1>{item.productName}</h1>}
+              subtitle={
+                <div style={priceDivStyling}>
+                  <h1>{item.productPromoPrice}</h1>
+                  <h1 style={lineThrough}>{item.productPrice}</h1>
+                </div>
+              }
+              position="below"
+            />
           </ImageListItem>
         );
       })}
