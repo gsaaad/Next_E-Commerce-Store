@@ -15,7 +15,6 @@ export default function Navigation({ products }) {
         </Link>
         {departments.map((department) => {
           const departmentLink = `/collections/${department}`;
-          console.log(departmentLink);
           return (
             <Link
               underline="none"

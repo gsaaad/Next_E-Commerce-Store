@@ -5,7 +5,6 @@ import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 
 export default function BreadcrumbsNavigation({ title }) {
-  console.log(title, "this is the title from breadcrumbs");
   return (
     <Box mt={2}>
       <Breadcrumbs separator=">" aria-label="breadcrumb">

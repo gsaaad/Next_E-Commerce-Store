@@ -8,8 +8,17 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 export default function collectionProducts({ products }) {
   const router = useRouter();
   const collectionName = router.route.split("/")[2];
-  const department = Object.keys(products);
-  console.log("COLLECTION NAME", collectionName);
+  const department = Object.entries(products);
+
+  for (let i = 0; i < department.length; i++) {
+    const departmentTitle = department[i][0];
+    const departmentProducts = department[i][1];
+    if (departmentTitle == collectionName) {
+      console.log(typeof departmentProducts, "PRODUCTS", departmentProducts);
+    }
+  }
+
+  // todo match collection name with department, then retrieve products that represent collection/department
 
   //   if (products) {
   //     const PRODUCTS = Object.values(products);
