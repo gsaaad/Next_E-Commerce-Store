@@ -41,10 +41,10 @@ export default function createRandomProducts() {
     }
   }
   console.log(departments);
-  //   for each department x 15 products (0-14)
+  //   for each department x 16 products (0-15)
   for (let i = 0; i < departments.length; i++) {
     var Product = {};
-    for (let j = 0; j < 15; j++) {
+    for (let j = 0; j < 16; j++) {
       var productId = faker.datatype.uuid().split("-")[1];
       var productName = faker.commerce.productName();
       var productMaterial = productName.split(" ")[1];
