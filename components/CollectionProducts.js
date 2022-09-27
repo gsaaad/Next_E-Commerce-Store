@@ -26,6 +26,7 @@ export default function collectionProducts({ products }) {
           const priceDivStyling = {
             display: "flex",
           };
+
           return (
             <ImageListItem key={productNum}>
               <img
