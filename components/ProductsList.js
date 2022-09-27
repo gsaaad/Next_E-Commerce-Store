@@ -3,9 +3,15 @@ import Typography from "@mui/material/Typography";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
-
+import {
+  ThemeProvider,
+  createTheme,
+  responsiveFontSizes,
+} from "@mui/material/styles";
+import Link from "@mui/material/Link";
 export default function ProductsList({ products }) {
-  console.log("PRODUCTS IN PRODUCT LIST", products);
+  let theme = createTheme();
+  theme = responsiveFontSizes(theme);
   if (products) {
     const PRODUCTS = Object.values(products);
     const randomProducts = [];
@@ -18,6 +24,7 @@ export default function ProductsList({ products }) {
         {Object.entries(randomProducts).map((product) => {
           const productNum = product[0];
           const item = product[1];
+          const collectionPage = `/collections/${item.productDepartment}`;
           const lineThrough = {
             textDecoration: "line-through",
             marginLeft: "20px",
@@ -35,7 +42,23 @@ export default function ProductsList({ products }) {
                 loading="lazy"
               />
               <ImageListItemBar
-                title={<h1>{item.productName}</h1>}
+                title={
+                  <div>
+                    <h1>{item.productName}</h1>
+                    <Link
+                      underline="hover"
+                      key="1"
+                      color="inherit"
+                      href={collectionPage}
+                    >
+                      <ThemeProvider theme={theme}>
+                        <Typography variant="h5">
+                          Department: {item.productDepartment}
+                        </Typography>
+                      </ThemeProvider>
+                    </Link>{" "}
+                  </div>
+                }
                 subtitle={
                   <div style={priceDivStyling}>
                     <h1>{item.productPromoPrice}</h1>
@@ -49,7 +72,5 @@ export default function ProductsList({ products }) {
         })}
       </ImageList>
     );
-  } else {
-    console.log("PROBLEM");
   }
 }
