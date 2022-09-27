@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useRouter } from "next/router";
+import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
@@ -8,26 +9,32 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 export default function collectionProducts({ products }) {
   const router = useRouter();
   const collectionName = router.route.split("/")[2];
-  const department = Object.entries(products);
+  const departmentNames = Object.keys(products);
+  console.log(departmentNames);
+  const PRODUCTS = Object.values(products);
 
-  for (let i = 0; i < department.length; i++) {
-    const departmentTitle = department[i][0];
-    const departmentProducts = Object.values(department[i][1]);
-    if (departmentTitle == collectionName) {
-      const PRODUCTS = departmentProducts;
+  // for (let i = 0; i < department.length; i++) {
+  //   const departmentTitle = department[i][0];
+  //   const departmentProducts = Object.values(department[i][1]);
+  //   const PRODUCTS = departmentProducts;
+  //   const collectionPRODUCTS = [];
 
-      {
-        Object.values(PRODUCTS).map((product) => {
-          console.log(product);
-          return (
-            <div>
-              <h1>{product.productDepartment}</h1>
-            </div>
-          );
-        });
-      }
-    }
-  }
+  //   if (departmentTitle == collectionName) {
+  //     Object.values(PRODUCTS).map((product) => {
+  //       return (
+  //         <Box>
+  //           <Typography>Hello PRODUCTS</Typography>
+  //         </Box>
+  //       );
+  //     });
+  //   }
+  // }
+
+  return (
+    <Box>
+      <Typography>Hello PRODUCTS</Typography>
+    </Box>
+  );
 
   // todo match collection name with department, then retrieve products that represent collection/department
 
