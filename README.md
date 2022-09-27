@@ -4,6 +4,8 @@
 
 This application is set up to represent an online E-commerce shop with products from 5 randomly generated departments and products. users can look at products as well as go to departments with more of those products.
 
+![Screenshot](./public/img/Preview.png)
+
 ## Table of Contents
 
 - [Usage](#usage)
