@@ -15,7 +15,6 @@ function createDepartments() {
       var Department = {
         name: department,
         description: `The ${department} Department`,
-        products: [],
         budget: randomBugdget,
       };
       departments.push(Department);
@@ -56,11 +55,14 @@ function createProducts() {
       var Uid = faker.datatype.uuid().split("-")[1];
       var name = faker.commerce.productName();
       var description = faker.commerce.productDescription();
-      var departmentName = currentDepartment;
+      // var departmentName = currentDepartment;
       var image = faker.image.imageUrl(640, 480, `${currentDepartment}`);
+      var department_id = i + 1;
       var randomAddOn = Math.floor(Math.random() * promotionalAddOn.length);
       var price = faker.commerce.price(37, 99, 0, "$");
+
       var promoPrice = faker.commerce.price(30, price.slice(1) - 2, 0, "$");
+
       var productRating = faker.datatype.float({
         min: 2.8,
         max: 5,
@@ -77,7 +79,8 @@ function createProducts() {
         promoAddOn,
         productRating,
         image,
-        departmentName,
+        department_id,
+        // departmentName,
       };
       // console.log("this is the product", Product);
       products.push(Product);

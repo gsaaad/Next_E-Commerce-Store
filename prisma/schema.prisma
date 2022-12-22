@@ -11,26 +11,26 @@ datasource db {
 model Product {
     id             Int @id @default(autoincrement())
     Uid            String
-    name           String
+    name           String 
     description    String
-    price          Decimal
-    promoPrice     Decimal
+    price          String
+    promoPrice     String
     promoAddOn     String
     productRating  Decimal
     image          String
-    department Department? @relation(fields: [departmentName], references: [name])
-    departmentName String
+    department Department? @relation(fields: [department_id], references: [id])
+    department_id Int
 
-    @@index([departmentName])
+    @@index([department_id])
 
 }
 
 model Department{
     id Int @id @default(autoincrement())
-    name String @unique
+    name String 
     description String
-    products Product[]
     budget Decimal
+    products Product[]
 }
 
 
