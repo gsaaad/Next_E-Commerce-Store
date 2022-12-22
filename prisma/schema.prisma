@@ -1,25 +1,23 @@
 generator client {
-    providor = "prisma-client-"js"
-    previewFeatures = ["referentialIntegrity]
-
+    provider        = "prisma-client-js"
+    previewFeatures = ["referentialIntegrity"]
 }
-
-datasource db{
-    provider = "mysql"
-    url = env("DATABASE_URL)
+datasource db {
+    provider             = "mysql"
+    url                  = env("DATABASE_URL")
     referentialIntegrity = "prisma"
 }
 
 model Product {
-    id Int @id @default(autoincrement())
-    Uid String
-    name String
-    description String
-    price Decimal
-    promoPrice Decimal
-    promoAddOn String
-    productRating Decimal
-    image String
+    id             Int @id @default(autoincrement())
+    Uid            String
+    name           String
+    description    String
+    price          Decimal
+    promoPrice     Decimal
+    promoAddOn     String
+    productRating  Decimal
+    image          String
     department Department? @relation(fields: [departmentName], references: [name])
     departmentName String
 
@@ -29,7 +27,7 @@ model Product {
 
 model Department{
     id Int @id @default(autoincrement())
-    name String
+    name String @unique
     description String
     products Product[]
     budget Decimal

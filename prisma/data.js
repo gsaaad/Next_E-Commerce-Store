@@ -1,6 +1,5 @@
-// const { Prisma } = require("@prisma/client");
+// import fs from "fs";
 import { faker } from "@faker-js/faker";
-import fs from "fs";
 
 // 22 departments from Faker commerce
 const departments = [];
@@ -86,5 +85,29 @@ function createProducts() {
   }
   return products;
 }
+// function createJSONdata(data){
+//   try {
+//   fs.writeFileSync("data.json", JSON.stringify(data), function (err) {
+//     if (!err) {
+//       console.log(
+//         "Seeding data to data.json writting is complete! Have fun shopping ~!"
+//       );
+//     } else {
+//       // else means there's error!
+//       console.error(
+//         "There was an error in the writting process itself. data.json IS NOT seeded properly... Try again!"
+//       );
+//     }
+//   });
+//   console.log(
+//     "Seeding data to data.json writting is complete! Have fun shopping ~!"
+//   );
+// } catch (e) {
+//   console.error(
+//     e,
+//     "There was a problem with writing/ finalizing the seeding process for each department 15 items (0-14)"
+//   );
+// }
+// }
 
 export default { createDepartments, createProducts };
