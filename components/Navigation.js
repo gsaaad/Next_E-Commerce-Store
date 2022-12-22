@@ -25,7 +25,7 @@ export default function Navigation({ products }) {
     <AppBar position="static">
       <Toolbar>
         <Link underline="none" color="inherit" href="/">
-          <Typography mr={2}>All products</Typography>
+          <Typography mr={2}>E-Commerce</Typography>
         </Link>
         {departments.map((department) => {
           const departmentLink = `/collections/${department}`;

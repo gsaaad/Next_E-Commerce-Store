@@ -2,30 +2,41 @@ import * as React from "react";
 import Typography from "@mui/material/Typography";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import Container from "@mui/material/Container";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
-import {
-  ThemeProvider,
-  createTheme,
-  responsiveFontSizes,
-} from "@mui/material/styles";
-import Link from "@mui/material/Link";
+import { createTheme, responsiveFontSizes } from "@mui/material/styles";
+
 export default function ProductsList({ products }) {
   let theme = createTheme();
   theme = responsiveFontSizes(theme);
 
-  if (!products) {
-    const PRODUCTS = Object.values(products);
-    const randomProducts = [];
-    for (let i = 0; i < PRODUCTS.length; i++) {
-      randomProducts.push(PRODUCTS[i][0]);
-    }
+  if (products) {
+    var sampleProducts = products.slice(0, 14);
+    console.log(sampleProducts.length);
 
-    // return (
-    //   <ImageList col={4} gap={50}>
-    //    {Object.entries()}
-    //   </ImageList>
-    // );
+    return (
+      <ImageList sx={{ width: 600, height: 600 }} cols={3} rowHeight={10}>
+        {sampleProducts.map((product) => {
+          {
+            /* console.log(product.image), */
+          }
+          <ImageListItem key={product.id}>
+            <img
+              src={`${product.image}`}
+              srcSet={`${product.image}`}
+              alt={product.name}
+              loading="lazy"
+            />
+            <Typography mr={2}>{product.name}</Typography>
+          </ImageListItem>;
+        })}
+      </ImageList>
+    );
   } else {
-    return <Typography mr={2}>Sorry could not find products..</Typography>;
+    return (
+      <Container>
+        <Typography mr={2}>Sorry could not find products..</Typography>
+      </Container>
+    );
   }
 }

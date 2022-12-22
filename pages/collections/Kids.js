@@ -5,7 +5,6 @@ import Box from "@mui/material/Box";
 import Navigation from "../../components/Navigation";
 import CollectionProducts from "../../components/CollectionProducts";
 import BreadcrumbsNavigation from "../../components/BreadcrumbsNavigation";
-import PRODUCTS from "../../data.json";
 
 export default function Games() {
   const router = useRouter();

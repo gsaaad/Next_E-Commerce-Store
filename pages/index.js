@@ -24,7 +24,6 @@ export async function getStaticProps(context) {
       department: true,
     },
   });
-  console.log(data["department"]);
   const products = data.map((product) => ({
     ...product,
     productRating: product.productRating.toString(),
