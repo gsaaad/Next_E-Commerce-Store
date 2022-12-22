@@ -10,3 +10,30 @@ datasource db{
     referentialIntegrity = "prisma"
 }
 
+model Product {
+    id Int @id @default(autoincrement())
+    Uid String
+    name String
+    description String
+    price Decimal
+    promoPrice Decimal
+    promoAddOn String
+    productRating Decimal
+    image String
+    department Department? @relation(fields: [departmentName], references: [name])
+    departmentName String
+
+    @@index([departmentName])
+
+}
+
+model Department{
+    id Int @id @default(autoincrement())
+    name String
+    description String
+    products Product[]
+    budget Decimal
+}
+
+
+
