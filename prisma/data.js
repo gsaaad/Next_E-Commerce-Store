@@ -1,12 +1,11 @@
-const { Prisma } = require("@prisma/client");
-
+// const { Prisma } = require("@prisma/client");
 import { faker } from "@faker-js/faker";
-
+import fs from "fs";
 // 22 departments from Faker commerce
+const departments = [];
 
 function createDepartments() {
   // !Commerce departments
-  const departments = [];
   var loopCount = 0;
   while (departments.length < 22) {
     let department = faker.commerce.department();
@@ -14,15 +13,12 @@ function createDepartments() {
       departments.push(department);
     }
     loopCount += 1;
-    console.log(faker.commerce.productName());
   }
-  console.log("List of departments:", departments);
-  console.log("Length of departments", departments.length);
-  console.log("Loop ran", loopCount);
 }
 
+const products = [];
 // each department will have 15 products
-function createProducts() {
+function createFakerProducts() {
   const promotionalAddOn = [
     "Bestseller",
     "Just In",
@@ -43,7 +39,6 @@ function createProducts() {
   var productPromotionAddOn = Math.floor(
     Math.random() * promotionalAddOn.length
   );
-  // for each department x 16 products (0-15)
   for (let i = 0; i < departments.length; i++) {
     var Product = {};
     for (let j = 0; j < 16; j++) {
@@ -57,7 +52,6 @@ function createProducts() {
         0,
         "$"
       );
-      console.log(productPrice, productPromoPrice);
 
       var productDescription = faker.commerce.productDescription();
       var productDepartment = departments[i];
@@ -73,21 +67,25 @@ function createProducts() {
         max: 5,
         precision: 0.1,
       });
-      var product = {
-        productId,
-        productName,
-        productMaterial,
-        productDepartment,
-        productDescription,
-        productPromotionAddOn,
-        productPrice,
-        productPromoPrice,
-        productRating,
-        productImg,
-      };
-      Product[j] = product;
+      productName = productName.split(" ")[2];
+      if (!products.includes(productName)) {
+        products.push(productName);
+        var product = {
+          productId,
+          productName,
+          productMaterial,
+          productDepartment,
+          productDescription,
+          productPromotionAddOn,
+          productPrice,
+          productPromoPrice,
+          productRating,
+          productImg,
+        };
+        Product[j] = product;
+      }
+      products[departments[i]] = Product;
     }
-    products[departments[i]] = Product;
   }
   try {
     fs.writeFileSync("data.json", JSON.stringify(products), function (err) {
@@ -113,4 +111,7 @@ function createProducts() {
   }
 }
 
-export default { createDepartments, createProducts };
+createDepartments();
+createFakerProducts();
+
+export default { createDepartments, createFakerProducts };
