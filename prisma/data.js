@@ -15,7 +15,7 @@ function createDepartments() {
       var Department = {
         name: department,
         description: `The ${department} Department`,
-        budget: randomBugdget,
+        budget: randomBugdget.toString(),
       };
       departments.push(Department);
     }
